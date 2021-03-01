@@ -1,0 +1,44 @@
+<!--
+  Project by limon
+  https://github.com/kivirciknoodle/webhook
+-->
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Discord mesaj gönderme botu</title>
+  <meta name="author" content="Zua">
+  <meta name="description" content="Discord mesaj gönderme botu">
+  <meta name="keywords" content="discord,zua,webhook">
+  <meta name="title" content="Discord mesaj gönderme botu">
+  <link rel="stylesheet" href="stylesheet.css" type="text/css">
+  </head>
+  <body>
+
+    <div id="header">
+      <h>Discord mesaj gönderme botu </h>
+    </div>
+    <div id="container">
+      <div class="center-align">
+        <p>Webhook Link:</p><input type='text' id="link" placeholder="Bu Alana Webhook linki yazacaksınız. * OPTIONAL" value="https://discord.com/api/webhooks/815747032039030835/xbkkn8OC17as4tvMc5a1nqND9MNGLcJFXlTbwBx2_qumfOAdTtsNHvac53Zic2-k8oUX">
+        <p>Bot İsmi:</p><input type="text" id="username" placeholder="Bu alana bot adını yazacaksınız * OPTIONAL" value="limon">
+        <p>Avatar link:</p><input type="text" id="avatar" placeholder="Bot fotoğraf linki * OPTIONAL" value="https://cdn.discordapp.com/avatars/389788999499382785/b86d3cfd3d45e956095bb88f090d6b8a.png?size=512">
+        <p>Mesaj:</p><input type="text" id="content" placeholder="Bu alana botun yazmasını istediğiniz mesaj.">
+        <br>
+        <button id="btn">Gönder</button>
+        <center>
+       <!--JS log in the works atm-->
+        <p id='log'></p>
+      </center>
+    </div>
+  </div> 
+  </div>
+  <div id="footer">
+    Copyright &copy; <a href="https://github.com/kivirciknoodle">limon</a>
+  </div>
+ <script src="jquery.js"></script>
+  <script src="main.js"></script>
+  </body>
+</html>
